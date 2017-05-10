@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_novo"
+        app:showAsAction="always"
+        android:title="@string/novo"/>
+
+    <item
+        android:id="@+id/menu_mapa"
+        app:showAsAction="always"
+        android:title="@string/mapa"/>
+
+    <item
+        app:showAsAction="always"
+        android:title="@string/mais_opcoes">
+        <menu>
+            <item
+                android:id="@+id/menu_sincronizar"
+                android:title="@string/sincronizar"/>
+
+            <item
+                android:id="@+id/menu_provas"
+                android:title="@string/provas"/>
+
+            <item
+                android:id="@+id/menu_preferencias"
+                android:title="@string/preferencias"/>
+        </menu>
+    </item>
+
+</menu>

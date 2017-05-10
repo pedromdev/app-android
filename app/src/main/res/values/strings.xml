@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Alunos ADS</string>
+
+    <!-- Strings para itens de menu -->
+    <string name="novo">Novo</string>
+    <string name="mapa">Mapa</string>
+    <string name="mais_opcoes">Mais opçoes</string>
+    <string name="sincronizar">Sincronizar</string>
+    <string name="provas">Provas</string>
+    <string name="preferencias">Preferencias</string>
+
+    <!-- Cadastro de aluno -->
+    <string name="cadastro_nome_aluno_lbl">Nome</string>
+    <string name="cadastro_nome_aluno_hint">Informe o nome do aluno</string>
+    <string name="cadastro_telefone_aluno_lbl">Telefone</string>
+    <string name="cadastro_telefone_aluno_hint">Informe o telefone</string>
+    <string name="cadastro_site_aluno_lbl">Site</string>
+    <string name="cadastro_site_aluno_hint">Informe o site</string>
+    <string name="cadastro_email_aluno_lbl">E-mail</string>
+    <string name="cadastro_email_aluno_hint">example@gmail.com</string>
+    <string name="cadastro_endereco_aluno_hint">Informe o endereço</string>
+    <string name="cadastro_endereco_aluno_lbl">Endereço</string>
+    <string name="cadastro_nota_aluno_lbl">Nota</string>
+    <string name="btn_salvar_aluno">Salvar</string>
+
+    <!-- Outras strings aqui -->
+    <string name="btn_add">Adicionar</string>
+</resources>
