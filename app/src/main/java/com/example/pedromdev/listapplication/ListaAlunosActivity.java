@@ -49,37 +49,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, nomes);
         listNomes.setAdapter(adapter);
 
-        edtNome.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                if (event.getAction() == KeyEvent.ACTION_DOWN) {
-                    switch (keyCode) {
-                        case KeyEvent.KEYCODE_DPAD_CENTER:
-                        case KeyEvent.KEYCODE_ENTER:
-                        case KeyEvent.FLAG_EDITOR_ACTION:
-                            btnAdd.callOnClick();
-                            return true;
-                        default:
-                            break;
-                    }
-                }
-                return false;
-            }
-        });
-
-        edtNome.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                switch (actionId) {
-                    case EditorInfo.IME_ACTION_DONE:
-                    case EditorInfo.IME_ACTION_SEND:
-                        btnAdd.callOnClick();
-                        return true;
-                }
-                return false;
-            }
-        });
-
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
